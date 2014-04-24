@@ -68,7 +68,7 @@ FunList <- makeCacheMatrix()
 
 #When we call the function get(), it looks for the free variable "x" in the
 #environment in which the function get() was defined, that is the environment
-#of the function makeCacheMatrix(), called in line #56.
+#of the function makeCacheMatrix(), called in line #67.
 #It returns the same object that was given as an argument for the function
 #makeCacheMatrix(), an empty matrix: 
 
@@ -110,7 +110,7 @@ FunList$getInv()
 #Returns NULL, "m" was defined as a local variable in the function 
 #makeCacheMatrix(). If we look for the object "m" within the environment of 
 #the function getInv() we will see that its value is NULL, as defined by 
-#the function makeCacheMatrix(), called in line #56:
+#the function makeCacheMatrix(), called in line #67:
 
 makeCacheMatrix.getInv <- FunList$getInv
 
