@@ -85,7 +85,7 @@ ls(environment(makeCacheMatrix.get))
 get("x", environment(makeCacheMatrix.get))
 
 #If we call the function set() and give it a new matrix as an argument, say
-#a 4 by 4 matrix, what we are doing is reassigning the value of x,
+#a 2 by 2 matrix, what we are doing is reassigning the value of x,
 #this time within the environment of the function set(), thus the next time
 #we call the function get() it will return the new matrix:
 
