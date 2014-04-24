@@ -166,4 +166,4 @@ cacheSolve(FunList)[1:10, 1:3]
 #If we call this again, the function won't compute the inverse and will
 #return the chached inverse:
 
-cacheSolve(FunList)[1:10, 1:3]
+cacheSolve(FunList)[1:10, 1:3] #Its faster
