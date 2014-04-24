@@ -140,7 +140,7 @@ ls()
 
 #Now if we call the cacheSolve() function, and we have already defined the 
 #inverse of our matrix (within the environment of the function setInv), R won't
-#have to compute the inverse again and will just look for it the getInv() 
+#have to compute the inverse again and will just look for it  in the getInv() 
 #function's environment:
 
 cacheSolve(FunList) 
